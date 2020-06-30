@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>React App</title>
+ 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <script src="../src/index.js" type="text/jsx"></script>
+    <div id="root"></div>
+   
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
+    <script src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script>
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+       
+    </script>
+  </body>
+</html>
